@@ -78,6 +78,7 @@ dependencies {
     def mock_ver = '4.0.0'
     testImplementation "org.mockito:mockito-core:$mock_ver"
     testImplementation "org.mockito.kotlin:mockito-kotlin:$mock_ver"
+    testImplementation "org.mockito:mockito-inline:$mock_ver"
 
     //Other
     implementation 'androidx.core:core-ktx:1.7.0'

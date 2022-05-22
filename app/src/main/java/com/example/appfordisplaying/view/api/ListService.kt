@@ -5,5 +5,5 @@ import retrofit2.http.GET
 
 interface ListService {
     @GET("photos")
-    suspend fun getItems(): List<Item>
+    /*suspend*/ fun getItems(): List<Item>
 }
